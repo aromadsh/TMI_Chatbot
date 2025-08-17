@@ -5,27 +5,26 @@
 
 ---
 
-## 🚀 실행 방법
+# 실행 방법
 
-```bash
-# 1. intro.txt 파일 내에 자신의 이야기를 작성합니다 (많을수록 좋아요!)
+1. intro.txt 파일 내에 자신의 이야기를 작성합니다 **(많을수록 좋아요!)**
 
----
-
-```bash
-# 2. 필요 라이브러리 설치
+2. 필요 라이브러리 설치
+```
 pip install -r requirements.txt
+```
 
----
-
-```bash
-# 3. 임베딩 DB 생성 (최초 1회)
+3. 임베딩 DB 생성 (최초 1회)
+```
 python embed_build.py
+```
 
-```bash
-# 4. 모델 실행
+4. 모델 실행 **ollama 모델 사용**
+```
 ollama run gemma3
+```
 
-```bash
-# 5. 웹 실행
+5. 웹 실행 **streamlit 웹 실행**
+```
 streamlit run app.py
+```
