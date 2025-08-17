@@ -10,9 +10,13 @@
 ```bash
 # 1. intro.txt 파일 내에 자신의 이야기를 작성합니다 (많을수록 좋아요!)
 
+---
+
 ```bash
 # 2. 필요 라이브러리 설치
 pip install -r requirements.txt
+
+---
 
 ```bash
 # 3. 임베딩 DB 생성 (최초 1회)
