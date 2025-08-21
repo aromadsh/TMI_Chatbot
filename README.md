@@ -3,7 +3,7 @@
 나를 소개해주는 Chatbot, TMI  
 > 나의 이야기를 담아두면, TMI가 나를 대신해서 소개해줍니다!
 
-![](docs/tmi.gif)
+![Image](https://github.com/user-attachments/assets/07a302eb-8680-404f-aacb-96c8fc0792b6)
 
 ---
 
