@@ -23,13 +23,14 @@ def ask_ollama_with_context(question, database):
     ------------------------
     
     사용자의 질문: {question}
-    위 정보를 바탕으로 한 개인으로서 자신을 이야기를 하듯이 친절하고 정확하게 답변을 해주세요.
+    위 정보를 바탕으로 한 개인으로서 자신을 이야기를 하듯이 친절하고 정확하게 정리해서 답변을 해주세요.
     """
 
     response = requests.post(
         "http://localhost:11434/api/generate",
         json={
-            "model": "hf.co/Bllossom/llama-3.2-Korean-Bllossom-3B-gguf-Q4_K_M",
+            # "model": "hf.co/Bllossom/llama-3.2-Korean-Bllossom-3B-gguf-Q4_K_M",
+            "model": "gemma3",
             "prompt": full_prompt,
             "stream": False,
         }
